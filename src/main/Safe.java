@@ -13,7 +13,6 @@ public class Safe {
 
     public void changePin(String newPin) {
         this.pinCode = newPin;
-        System.out.println("PIN-koodi päivitetty.");
     }
 
     public void addData(String data) {
