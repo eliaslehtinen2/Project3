@@ -19,7 +19,7 @@ public class App {
 
             switch (choice) {
                 case 1:
-                    System.out.print("Anna uusi PIN-koodi: ");
+                    System.out.println("Anna uusi PIN-koodi: ");
                     String newPin = scanner.nextLine();
                     safe.changePin(newPin);
                     break;
